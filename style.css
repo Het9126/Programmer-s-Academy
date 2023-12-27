@@ -1,0 +1,38 @@
+#background::before {
+    content: "";
+    background-image: url('bg.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.85;
+}
+
+#background>h1 {
+    position: relative;
+    top: 40%;
+    left: auto;
+    font-size: 400%;
+    font-weight: 800;
+}
+
+#background>h3 {
+    position: relative;
+    top: 40%;
+    left: auto;
+    font-size: 250%;
+    font-weight: bolder;
+    color: rgb(185, 185, 185) !important;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+.card {
+    transform: scale(1);
+    transition: all 0.3s linear;
+}
